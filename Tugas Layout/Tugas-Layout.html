@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<style>
+    [class^='col'] {
+        /* border: 1px solid black;
+        background-color: rgba(86, 61, 124, 0.15); */
+        margin-top: 40px;
+    }
+
+    #client {
+        justify-content: center;
+    }
+
+    #serv {
+        justify-content: space-between;
+    }
+
+    #featured {
+        padding: 120px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-3 text-center" style="border: 1px solid black;">Navigation</div>
+        </div>
+        <div class="row">
+            <div class="col-3 p-3 text-center" style="border: 1px solid black;" >Logo</div>
+            <div class="col-5 p-3 offset-4 text-center" style="border: 1px solid black;">Tagline</div>
+        </div>
+        <div class="row">
+            <div class="col-7 text-center" id="featured" style="border: 1px solid black;">Featured Case Study</div>
+            <div class="col-5">
+                <div class="row">
+                    <div class="col-11 mt-0 p-5 offset-1 text-center" style="border: 1px solid black;">Introduction</div>
+                </div>
+                <div class="row offset-1">
+                    <div class="col-3 mt-3 mb-3">Client</div>
+                </div>
+                <div class="row" id="client" style="height: 100px;">
+                    <div class="col-3 mt-0 offset-1 text-center" style="border: 1px solid black;"></div>
+                    <div class="col-3 mt-0 offset-1 text-center" style="border: 1px solid black;"></div>
+                    <div class="col-3 mt-0 offset-1 text-center" style="border: 1px solid black;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="serv">
+            <div class="col-3 p-4 text-center" style="border: 1px solid black;">Services</div>
+            <div class="col-3 p-4 text-center offset-1" style="border: 1px solid black;">Featured Testimonal</div>
+            <div class="col-3 p-4 text-center offset-1" style="border: 1px solid black;">Mini Call To Action Banner</div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-5 text-center" style="border: 1px solid black;">Footer</div>
+        </div>
+    </div>
+</body>
+</html>
